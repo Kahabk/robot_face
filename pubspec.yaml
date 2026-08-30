@@ -1,0 +1,45 @@
+name: robot_alshifa
+description: A production-quality Flutter robot face application for Android tablet.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # WebSocket communication
+  web_socket_channel: ^2.4.0
+
+  # HTTP for REST API
+  http: ^1.1.0
+
+  # USB Serial communication for Android
+  usb_serial: ^0.5.2
+
+  # Keep screen awake
+  wakelock_plus: ^1.1.4
+
+  # State management
+  provider: ^6.1.1
+
+  # Shared preferences for settings
+  shared_preferences: ^2.2.2
+
+  # Camera + Face tracking
+  camera: ^0.11.2
+  google_mlkit_face_detection: ^0.13.1
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - image.png

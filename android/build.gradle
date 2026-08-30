@@ -1,0 +1,13 @@
+// Top-level build.gradle — no configuration needed with new Flutter Gradle plugin system.
+// All plugin configuration is in settings.gradle and app/build.gradle.
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

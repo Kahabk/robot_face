@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Network Security Configuration
+    ================================
+    Allows the robot face app to communicate over plain HTTP/WebSocket
+    on the local network (e.g. ws://192.168.x.x:8081).
+
+    This is safe because:
+    - All traffic is on the local LAN between the tablet and the robot PC
+    - No sensitive user data is transmitted
+-->
+<network-security-config>
+    <!-- Trust all certificates (system + user-installed) -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

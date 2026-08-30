@@ -1,0 +1,2 @@
+/home/user/robot_alshifa/android/app/.cxx/release/4fk1t4s1/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/user/robot_alshifa/android/app/.cxx/release/4fk1t4s1/armeabi-v7a/CMakeFiles/rebuild_cache.dir

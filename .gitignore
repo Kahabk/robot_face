@@ -1,0 +1,23 @@
+# Custom ignored files
+PROJECT_COMPLETE_DETAILS.md
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android
+android/.gradle/
+android/captures/
+android/app/build/
+android/app/local.properties
+android/key.properties
+
+# Environment & Logs
+*.log
+*.apk
+*.aab

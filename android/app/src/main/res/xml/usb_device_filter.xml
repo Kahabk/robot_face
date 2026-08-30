@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  USB device filter for robot communication.
+  Add your specific USB device VID/PID here.
+  Common serial adapter chip VIDs:
+    - FTDI FT232:  VID=0403
+    - CP2102/2104: VID=10C4 PID=EA60
+    - CH340/CH341: VID=1A86 PID=7523
+    - Arduino Uno: VID=2341
+    
+  Using wildcards (no vid/pid) to accept any USB serial device:
+-->
+<resources>
+    <!-- FTDI serial adapters -->
+    <usb-device vendor-id="1027" />
+
+    <!-- Silicon Labs CP210x -->
+    <usb-device vendor-id="4292" product-id="60000" />
+
+    <!-- CH340/CH341 -->
+    <usb-device vendor-id="6790" product-id="29987" />
+
+    <!-- Arduino -->
+    <usb-device vendor-id="9025" />
+
+    <!-- Generic - accepts all USB serial devices -->
+    <!-- Uncomment below to auto-accept any USB device (less secure) -->
+    <!-- <usb-device /> -->
+</resources>
