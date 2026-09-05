@@ -26,21 +26,6 @@ Backend (Python/ROS/Node) → USB or WiFi → Android Tablet → Robot Face
 
 ---
 
-## Features
-
-| Feature | Description |
-|---|---|
-| 🎭 **14 Emotions** | neutral, happy, excited, sad, angry, confused, surprised, sleepy, love, thinking, talking, listening, error, sleep |
-| 👁️ **Eye Animations** | Blinking, squint, surprise, glow, directional looking |
-| 👄 **Mouth Shapes** | 11 shapes including animated talking mouth |
-| 🔌 **USB Serial** | Auto-connect/reconnect to robot via USB |
-| 🌐 **WebSocket** | Real-time bidirectional control |
-| 🔗 **REST API** | Standard HTTP endpoints for any backend |
-| 💤 **Idle Animation** | Subtle alive motion when no commands |
-| 📱 **Kiosk Mode** | Fullscreen, immersive, screen always on |
-| 🛠️ **Dev Mode** | Hidden test panel (7 taps to activate) |
-
----
 
 ## Project Structure
 
@@ -81,16 +66,7 @@ robot_alshifa/
 
 ---
 
-## Quick Start
 
-### 1. Prerequisites
-
-- Flutter SDK ≥ 3.0.0
-- Android SDK (API 21+)
-- An Android tablet (any model, API 21+)
-- ADB connected via USB or WiFi
-
-### 2. Clone & Setup
 
 ```bash
 # Navigate to project
