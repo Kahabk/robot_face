@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="" alt="Numdux banner" width="100%" />
+  <img src="image.png" alt="Numdux banner" width="100%" />
 </p>
 
 
