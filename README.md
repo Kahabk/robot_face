@@ -471,10 +471,3 @@ flutter build apk --release
 
 ---
 
-## License
-
-MIT License — Free to use for personal and commercial robot projects.
-
----
-
-*Built with Flutter · Designed for physical robots · Open source*
