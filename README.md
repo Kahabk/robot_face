@@ -231,6 +231,7 @@ The tablet runs a REST server on port `8082`.
 ### Examples
 
 ```bash
+
 # Get status
 curl http://192.168.1.100:8082/api/robot/status
 
